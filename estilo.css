@@ -1,0 +1,140 @@
+
+
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( pink , yellow);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0);
+    position: fixed;
+    top: 0;
+}
+h1{
+    color: white;
+}
+header img{
+    height: 50px;
+}
+
+nav{
+   display: none;
+
+}
+
+.icones{
+    height: 50px;
+}
+
+#hamburguer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border: 2px solid white;
+}
+
+
+#hamburger div{
+    width: 30px;
+    height: 10px;
+    background-color: white;
+    border-radius: 90%;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    flex-direction: column;
+}
+
+.logotopo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logotopo img{
+
+}
+
+.logotopo h1{
+    font-size: 13pt;
+    margin-left: 5px;
+}
+
+.botao {
+    width: 270px;
+    height: 50px;
+    background-color: green;
+    border-radius:20px;
+    color: white;
+    border: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+.titulo{
+    font-size: 15pt;
+
+}
+section p:first-child {
+    font-size: 40pt;
+    font-weight: bolder;
+    text-align: center;
+}
+section p:nth-child(2) {
+    font-size: 15pt;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    
+}
+
+footer img{
+    width: 50px;
+}
+
+footer a {
+ display: flex;
+text-decoration: none;
+color: white    ;
+
+}
+
+footer h2{
+    
+color: gray;
+
+}
+
+ li {
+    list-style: none;
+    flex-direction: column;
+
+    
+}
+@media screen and (min-width:640px){
+
+}
+/* .titulo{
+ bottom:30px;
+} */
