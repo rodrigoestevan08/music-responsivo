@@ -34,7 +34,15 @@ nav{
 
 .icones{
     height: 50px;
-}
+    flex-direction: row;
+    align-items: center;
+
+    }
+    .icones img{
+        display: inline-flex;
+        height: 20px;
+        padding: 10px;
+    }
 
 #hamburguer{
     display: flex;
@@ -148,6 +156,4 @@ color: gray;
 @media screen and (min-width:640px){
 
 }
-/* .titulo{
- bottom:30px;
-} */
+
