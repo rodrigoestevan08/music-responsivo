@@ -20,6 +20,21 @@ header{
     position: fixed;
     top: 0;
 }
+.meio{
+    display: flex;
+    background-color: white;
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;            
+}
+.meio p{
+    display: flex;
+    color: red;
+}
 h1{
     color: white;
 }
@@ -27,10 +42,10 @@ header img{
     height: 50px;
 }
 
-nav{
-   display: none;
+/* nav{
+  display: none; 
 
-}
+} */
 
 .icones{
     height: 50px;
@@ -77,6 +92,21 @@ section{
     flex-direction: row;
     align-items: center;
 }
+#navegacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; 
+    display: none;                              
+}
+/* #navegacao{
+    display: flex;
+    font-size: 15pt; */
+}
+.title{
+    display: flex;
+    font-size: 20pt;
+}
 .logotopo img{
 
 }
@@ -99,10 +129,17 @@ section{
     text-transform: uppercase;
     padding: 10px 30px;
 }
-.titulo{
-    margin: 148px auto;
+.titulo p{
+    margin: 38px auto;
     font-size: 15pt;
 
+}
+.titulo>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-left: 30pt;
 }
 section p:first-child {
     font-size: 40pt;
