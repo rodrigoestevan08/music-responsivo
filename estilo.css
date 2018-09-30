@@ -7,7 +7,7 @@ body{
     background-image: linear-gradient( rgb(193, 192, 255) , rgb(225, 0, 255));
     font-family: 'Open Sans', sans-serif;
     color: white;
-    max-width: 57vh;
+    max-width: 56vh;
     
 }
 
@@ -20,9 +20,23 @@ header{
     position: fixed;
     top: 0;
 }
+
+.sd{
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(234, 127, 255);
+    border-radius:20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8pt;
+    text-transform: uppercase;
+}
 .meio{
+    margin: 0 auto;
     display: flex;
     background-color: white;
+    display: none;
     
 }
 h2{
@@ -83,7 +97,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 190px;
     flex-direction: column;
 }
 
